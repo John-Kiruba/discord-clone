@@ -1,44 +1,45 @@
 export default function Home() {
   return (
-    <div className="bg-gray-700 text-white min-h-screen justify-center flex items-center ">
-      <div className="max-w-lg">
-        <div className="flex hover:bg-gray-800 hover:bg-opacity-30 px-4 py-1">
-          <img
-            className="size-10 rounded-full mr-4"
-            src="/assets/images/dustin.jpeg"
-            alt="dustin"
-          />
-          <div>
-            <p className="flex items-baseline">
-              <span className="text-green-500 mr-2 text-sm font-medium">
-                dustinpoirier
-              </span>{" "}
-              <span className="text-xs  text-gray-500">01/01/2024</span>
-            </p>
-            <p className="text-gray-300">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Provident ad vero quo dolor rerum eum inventore, accusamus iure
-              voluptatibus harum fuga deserunt quas rem ea. Alias neque minus
-              odio cupiditate!
-            </p>
+    <>
+      <div className="flex text-gray-100 h-screen">
+        <div className="bg-gray-900 p-3 space-y-2 overflow-y-scroll hidden-scrollbar">
+          {[...Array(40)].map((_, index) => (
+            <div className="text-gray-800 rounded-full flex items-center justify-center size-12 bg-white ">
+              {index}
+            </div>
+          ))}
+        </div>
+        <div className="bg-gray-800 w-60 flex  flex-col">
+          <div className="px-3 h-12 flex items-center shadow-md">
+            Tailwind CSS
+          </div>
+          <div className="text-gray-300 p-3 flex-1 overflow-y-scroll space-y-2">
+            <p className="text-white">Channel (unread)</p>
+            <p className="text-white">Channel (unread)</p>
+            {[...Array(40)].map((_, index) => (
+              <div className="">
+                <p>Channel {index}</p>
+              </div>
+            ))}
           </div>
         </div>
-        <div className="mt-1 px-4 py-1 hover:bg-gray-800 hover:bg-opacity-30">
-          <p className="text-gray-300 pl-14">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
-            molestias! Numquam magni velit reiciendis cum dolores eos eveniet
-            sapiente amet ipsum sit dignissimos voluptatibus, corrupti enim odio
-            ipsam doloremque sequi.
-          </p>
-        </div>
-
-        <div className="mt-1 px-4 py-1 hover:bg-gray-800 hover:bg-opacity-30">
-          <p className="text-gray-300 pl-14">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
-            molestias!
-          </p>
+        <div className="bg-gray-700 flex-1 flex flex-col">
+          <div className="px-3 h-12 flex items-center shadow-md">General</div>
+          <div className="p-3 flex-1 overflow-y-scroll space-y-4">
+            {[...Array(40)].map((_, index) => (
+              <div className="">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloribus placeat iste quo aspernatur, soluta veritatis,
+                  deserunt maxime harum quisquam, eligendi in natus laboriosam
+                  dignissimos! Quod inventore aperiam dignissimos molestias
+                  temporibus.
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
