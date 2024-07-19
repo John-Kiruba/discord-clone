@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import { fontFamily } from "tailwindcss/defaultTheme";
 
 const config: Config = {
   content: [
@@ -6,6 +7,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  mode: "jit",
   theme: {
     extend: {
       backgroundImage: {
@@ -14,6 +16,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
+        brand: "#5865F2",
         gray: {
           50: "#ECEDEE",
           100: "#DCDDDE",
@@ -26,6 +29,14 @@ const config: Config = {
           800: "#2F3136",
           900: "#202225",
         },
+      },
+      fontFamily: {
+        robo: ["Roboto", "Open Sans", ...fontFamily.sans],
+        title: ["var(--font-montserrat)"],
+      },
+      fontWeight: {
+        normal: "400",
+        bold: "700",
       },
     },
   },
