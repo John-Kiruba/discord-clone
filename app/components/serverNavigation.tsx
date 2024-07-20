@@ -5,6 +5,13 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ReactNode } from "react";
 
+let servers = [
+  { id: 1, img: "/assets/images/dustin.jpeg" },
+  { id: 2, img: "/assets/images/recordplayer.jpg" },
+  { id: 3, img: "/assets/images/records.jpeg" },
+  { id: 4, img: "/assets/images/volk.jpeg" },
+];
+
 export default function ServerNavigation({
   children,
 }: {
@@ -21,11 +28,13 @@ export default function ServerNavigation({
 
         <hr className="border-t-white/[.06] border-t-2 rounded mx-2"></hr>
 
-        <div>
-          <Navlink href="/servers/1">
-            <img src="/assets/images/dustin.jpeg" />
-          </Navlink>
-        </div>
+        {servers.map((server) => (
+          <div>
+            <Navlink href={`/servers/${server.id}`} key={server.id}>
+              <img src={server.img} />
+            </Navlink>
+          </div>
+        ))}
       </div>
       {children}
     </div>
@@ -37,6 +46,7 @@ function Navlink({ href, children }: { href: string; children: ReactNode }) {
   return (
     <Link href={href} className="relative block group">
       <div className="absolute flex h-full items-center -left-3 ">
+        {/* selection white bar near the server icon */}
         <div
           className={`${
             pathname === href
@@ -46,13 +56,14 @@ function Navlink({ href, children }: { href: string; children: ReactNode }) {
         ></div>
       </div>
 
+      {/* server icon with image as children  */}
       <div className="group-active:translate-y-px ">
         <div
           className={`${
             pathname === href
               ? "text-white rounded-2xl bg-brand"
               : "text-gray-100 group-hover:text-white rounded-[24px]  bg-gray-700 group-hover:bg-brand group-hover:rounded-2xl"
-          }    flex items-center justify-center size-12  transition-all duration-200 overflow-hidden`}
+          }    flex items-center justify-center size-12 transition-all duration-200 overflow-hidden`}
         >
           {children}
         </div>
