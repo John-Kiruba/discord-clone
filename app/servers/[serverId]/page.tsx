@@ -1,9 +1,12 @@
+import { VerifiedIcon } from "@/app/components/icons";
+
 export default function ServerID({ params }: { params: { serverId: number } }) {
   return (
     <>
       <div className="bg-gray-800 w-60 flex  flex-col">
-        <div className="font-title font-bold px-3 h-12 flex items-center shadow-md">
+        <div className="font-title font-bold px-3 h-12 flex items-center shadow-sm">
           Server {params.serverId}
+          <VerifiedIcon className="size-10 text-white" />
         </div>
         <div className="text-gray-300 p-3 flex-1 overflow-y-scroll space-y-2">
           <p className=" text-white ">Channel (unread)</p>
@@ -16,7 +19,7 @@ export default function ServerID({ params }: { params: { serverId: number } }) {
         </div>
       </div>
       <div className="bg-gray-700   flex-1 flex flex-col">
-        <div className="px-3 h-12 flex items-center shadow-md">General</div>
+        <div className="px-3 h-12 flex items-center shadow-sm">General</div>
         <div className="p-3 flex-1 overflow-y-scroll space-y-4">
           {[...Array(40)].map((_, index) => (
             <div className="">
