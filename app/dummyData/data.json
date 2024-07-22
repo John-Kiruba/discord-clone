@@ -1,0 +1,45 @@
+{
+  "1": {
+    "label": "Tailwind CSS",
+    "categories": [
+      {
+        "id": 1,
+        "label": "",
+        "channels": [
+          {
+            "id": 1,
+            "label": "welcome",
+            "icon": "Book"
+          },
+          {
+            "id": 2,
+            "label": "announcements",
+            "icon": "Speakerphone"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Tailwind CSS",
+        "channels": [
+          {
+            "id": 3,
+            "label": "general"
+          },
+          {
+            "id": 4,
+            "label": "plugins"
+          },
+          {
+            "id": 5,
+            "label": "help"
+          },
+          {
+            "id": 6,
+            "label": "internals"
+          }
+        ]
+      }
+    ]
+  }
+}
