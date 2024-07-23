@@ -1,4 +1,4 @@
-export function VerifiedIcon(props: any) {
+export function Verified(props: any) {
   return (
     <svg aria-hidden="true" role="img" viewBox="0 0 16 15.2" {...props}>
       <path
@@ -9,7 +9,7 @@ export function VerifiedIcon(props: any) {
   );
 }
 
-export function WorldIcon(props: any) {
+export function World(props: any) {
   return (
     <svg aria-hidden="true" role="img" viewBox="0 0 24 24" {...props}>
       <path
@@ -20,7 +20,7 @@ export function WorldIcon(props: any) {
   );
 }
 
-export function ChevronIcon(props: any) {
+export function Chevron(props: any) {
   return (
     <svg {...props}>
       <g fill="none" fillRule="evenodd">
@@ -32,7 +32,7 @@ export function ChevronIcon(props: any) {
   );
 }
 
-export function BookIcon(props: any) {
+export function Book(props: any) {
   return (
     <svg
       aria-hidden="true"
@@ -53,7 +53,7 @@ export function BookIcon(props: any) {
   );
 }
 
-export function AnnouncementIcon(props: any) {
+export function Announcement(props: any) {
   return (
     <svg
       aria-hidden="true"
@@ -79,7 +79,7 @@ export function AnnouncementIcon(props: any) {
   );
 }
 
-export function AddFriendsIcon(props: any) {
+export function AddFriends(props: any) {
   return (
     <svg
       aria-hidden="true"
@@ -103,7 +103,7 @@ export function AddFriendsIcon(props: any) {
   );
 }
 
-export function ArrowDownIcon(props: any) {
+export function ArrowDown(props: any) {
   return (
     <svg
       aria-hidden="true"
@@ -122,7 +122,7 @@ export function ArrowDownIcon(props: any) {
   );
 }
 
-export function HashTagIcon(props: any) {
+export function HashTag(props: any) {
   return (
     <svg
       aria-hidden="true"
