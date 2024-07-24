@@ -9,12 +9,14 @@
           {
             "id": 1,
             "label": "welcome",
-            "icon": "Book"
+            "icon": "Book",
+            "unread": true
           },
           {
             "id": 2,
             "label": "announcements",
-            "icon": "Announcement"
+            "icon": "Announcement",
+            "unread": false
           }
         ]
       },
@@ -24,11 +26,13 @@
         "channels": [
           {
             "id": 5,
-            "label": "news"
+            "label": "news",
+            "unread": true
           },
           {
             "id": 6,
-            "label": "updates"
+            "label": "updates",
+            "unread": false
           },
           {
             "id": 7,
@@ -36,7 +40,8 @@
           },
           {
             "id": 8,
-            "label": "support"
+            "label": "support",
+            "unread": true
           }
         ]
       },
@@ -50,7 +55,8 @@
           },
           {
             "id": 10,
-            "label": "ideas"
+            "label": "ideas",
+            "unread": true
           },
           {
             "id": 11,
@@ -58,7 +64,8 @@
           },
           {
             "id": 12,
-            "label": "resources"
+            "label": "resources",
+            "unread": false
           }
         ]
       },
@@ -68,11 +75,13 @@
         "channels": [
           {
             "id": 13,
-            "label": "networking"
+            "label": "networking",
+            "unread": true
           },
           {
             "id": 14,
-            "label": "collaborations"
+            "label": "collaborations",
+            "unread": false
           },
           {
             "id": 15,
@@ -90,7 +99,8 @@
         "channels": [
           {
             "id": 17,
-            "label": "announcements"
+            "label": "announcements",
+            "unread": true
           },
           {
             "id": 18,
@@ -98,7 +108,8 @@
           },
           {
             "id": 19,
-            "label": "updates"
+            "label": "updates",
+            "unread": false
           },
           {
             "id": 20,
@@ -112,11 +123,13 @@
         "channels": [
           {
             "id": 21,
-            "label": "help"
+            "label": "help",
+            "unread": true
           },
           {
             "id": 22,
-            "label": "support"
+            "label": "support",
+            "unread": false
           },
           {
             "id": 23,
@@ -134,11 +147,13 @@
         "channels": [
           {
             "id": 25,
-            "label": "feedback"
+            "label": "feedback",
+            "unread": true
           },
           {
             "id": 26,
-            "label": "suggestions"
+            "label": "suggestions",
+            "unread": false
           },
           {
             "id": 27,
@@ -156,7 +171,8 @@
         "channels": [
           {
             "id": 29,
-            "label": "general"
+            "label": "general",
+            "unread": true
           },
           {
             "id": 30,
@@ -164,7 +180,8 @@
           },
           {
             "id": 31,
-            "label": "conversations"
+            "label": "conversations",
+            "unread": false
           },
           {
             "id": 32,
@@ -178,7 +195,8 @@
         "channels": [
           {
             "id": 33,
-            "label": "resources"
+            "label": "resources",
+            "unread": true
           },
           {
             "id": 34,
@@ -186,7 +204,8 @@
           },
           {
             "id": 35,
-            "label": "files"
+            "label": "files",
+            "unread": false
           },
           {
             "id": 36,
@@ -200,7 +219,8 @@
         "channels": [
           {
             "id": 37,
-            "label": "announcements"
+            "label": "announcements",
+            "unread": true
           },
           {
             "id": 38,
@@ -208,7 +228,8 @@
           },
           {
             "id": 39,
-            "label": "updates"
+            "label": "updates",
+            "unread": false
           },
           {
             "id": 40,

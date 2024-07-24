@@ -1,17 +1,20 @@
 import * as Icons from "@/app/components/icons";
 import data from "../../../../dummyData/data.json";
 import Link from "next/link";
+import { NextComponentType, NextPage } from "next";
 
 type Channel = {
   id: number;
   label: string;
   icon?: string;
+  unread?: boolean;
 };
 
 type Params = {
   serverId: string;
   channelId: string;
 };
+
 export default function ServerID({ params }: { params: Params }) {
   return (
     <>
@@ -31,7 +34,7 @@ export default function ServerID({ params }: { params: Params }) {
           {data["1"].categories.map((category) => (
             <div key={category.id}>
               {category.label && (
-                <button className="flex items-center px-0.5 uppercase font-bold font-title text-xs tracking-wide">
+                <button className="flex items-center px-0.5 uppercase font-bold font-title text-xs tracking-wide hover:text-gray-100 w-full">
                   <Icons.ArrowDown className="size-3 mr-0.5" />
                   {category.label}
                 </button>
@@ -80,16 +83,31 @@ function ChannelLink({
   // Active condition of channels
   let active = +params.channelId === +channel.id;
 
+  // Active / inactive state of channels
+  let state: keyof typeof classes = active
+    ? "active"
+    : channel.unread
+    ? "inactiveUnread"
+    : "inactiveRead";
+
+  let classes = {
+    active: "text-white bg-gray-550/[0.32]",
+    inactiveUnread:
+      "text-white hover:bg-gray-550/[0.16] active:bg-gray-550/[0.24]",
+    inactiveRead:
+      "text-gray-300 hover:text-gray-100 hover:bg-gray-550/[0.16] active:bg-gray-550/[0.24]",
+  };
+
   return (
     <Link
       href={`/servers/${params.serverId}/channels/${channel.id}`}
       key={channel.id}
-      className={` ${
-        active
-          ? "text-white bg-gray-550/[0.32]"
-          : " text-gray-300 hover:text-gray-100 hover:bg-gray-550/[0.16]"
-      } flex items-center px-2 mx-1 py-1 rounded group `}
+      className={` ${classes[state]} flex items-center px-2 mx-1 py-1 rounded group relative `}
     >
+      {state === "inactiveUnread" && (
+        <div className="bg-white w-1 h-2 absolute rounded-r-md -left-1"> </div>
+      )}
+
       <Icon className="size-5 mr-1.5 text-gray-400" />
       {channel.label}
       <Icons.AddFriends className="opacity-0 group-hover:opacity-100 size-4 ml-auto hover:text-gray-100 text-gray-200" />
