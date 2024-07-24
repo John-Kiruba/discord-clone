@@ -9,12 +9,14 @@
           {
             "id": 1,
             "label": "welcome",
+            "description": "Introduction to the server and guidelines.",
             "icon": "Book",
             "unread": true
           },
           {
             "id": 2,
             "label": "announcements",
+            "description": "Latest updates and news.",
             "icon": "Announcement",
             "unread": false
           }
@@ -25,22 +27,26 @@
         "label": "Category 1.2",
         "channels": [
           {
-            "id": 5,
+            "id": 3,
             "label": "news",
+            "description": "Daily news and updates.",
             "unread": true
           },
           {
-            "id": 6,
+            "id": 4,
             "label": "updates",
+            "description": "Recent changes and improvements.",
             "unread": false
           },
           {
-            "id": 7,
-            "label": "feedback"
+            "id": 5,
+            "label": "feedback",
+            "description": "Share your thoughts and suggestions."
           },
           {
-            "id": 8,
+            "id": 6,
             "label": "support",
+            "description": "Need help? Ask here.",
             "unread": true
           }
         ]
@@ -50,21 +56,25 @@
         "label": "Category 1.3",
         "channels": [
           {
-            "id": 9,
-            "label": "discussions"
+            "id": 7,
+            "label": "discussions",
+            "description": "General discussions on various topics."
           },
           {
-            "id": 10,
+            "id": 8,
             "label": "ideas",
+            "description": "Share your innovative ideas.",
             "unread": true
           },
           {
-            "id": 11,
-            "label": "projects"
+            "id": 9,
+            "label": "projects",
+            "description": "Work on community projects together."
           },
           {
-            "id": 12,
+            "id": 10,
             "label": "resources",
+            "description": "Useful resources and links.",
             "unread": false
           }
         ]
@@ -74,22 +84,26 @@
         "label": "Category 1.4",
         "channels": [
           {
-            "id": 13,
+            "id": 11,
             "label": "networking",
+            "description": "Connect with others in the community.",
             "unread": true
           },
           {
-            "id": 14,
+            "id": 12,
             "label": "collaborations",
+            "description": "Find collaboration opportunities.",
             "unread": false
           },
           {
-            "id": 15,
-            "label": "events"
+            "id": 13,
+            "label": "events",
+            "description": "Upcoming events and meetups."
           },
           {
-            "id": 16,
-            "label": "meetups"
+            "id": 14,
+            "label": "meetups",
+            "description": "Plan and join meetups."
           }
         ]
       },
@@ -98,22 +112,26 @@
         "label": "Category 1.5",
         "channels": [
           {
-            "id": 17,
+            "id": 15,
             "label": "announcements",
+            "description": "Important announcements.",
             "unread": true
           },
           {
-            "id": 18,
-            "label": "news"
+            "id": 16,
+            "label": "news",
+            "description": "Latest news and updates."
           },
           {
-            "id": 19,
+            "id": 17,
             "label": "updates",
+            "description": "System updates and patches.",
             "unread": false
           },
           {
-            "id": 20,
-            "label": "alerts"
+            "id": 18,
+            "label": "alerts",
+            "description": "Critical alerts and warnings."
           }
         ]
       },
@@ -122,22 +140,26 @@
         "label": "Category 1.6",
         "channels": [
           {
-            "id": 21,
+            "id": 19,
             "label": "help",
+            "description": "Get help with issues and problems.",
             "unread": true
           },
           {
-            "id": 22,
+            "id": 20,
             "label": "support",
+            "description": "Customer support and assistance.",
             "unread": false
           },
           {
-            "id": 23,
-            "label": "assistance"
+            "id": 21,
+            "label": "assistance",
+            "description": "General assistance and help."
           },
           {
-            "id": 24,
-            "label": "guidance"
+            "id": 22,
+            "label": "guidance",
+            "description": "Guidance and mentorship."
           }
         ]
       },
@@ -146,22 +168,26 @@
         "label": "Category 1.7",
         "channels": [
           {
-            "id": 25,
+            "id": 23,
             "label": "feedback",
+            "description": "Provide your feedback and suggestions.",
             "unread": true
           },
           {
-            "id": 26,
+            "id": 24,
             "label": "suggestions",
+            "description": "Give your suggestions for improvement.",
             "unread": false
           },
           {
-            "id": 27,
-            "label": "ideas"
+            "id": 25,
+            "label": "ideas",
+            "description": "Share your creative ideas."
           },
           {
-            "id": 28,
-            "label": "recommendations"
+            "id": 26,
+            "label": "recommendations",
+            "description": "Recommend tools and resources."
           }
         ]
       },
@@ -170,22 +196,26 @@
         "label": "Category 1.8",
         "channels": [
           {
-            "id": 29,
+            "id": 27,
             "label": "general",
+            "description": "General chat and discussions.",
             "unread": true
           },
           {
-            "id": 30,
-            "label": "chats"
+            "id": 28,
+            "label": "chats",
+            "description": "Casual chats and conversations."
           },
           {
-            "id": 31,
+            "id": 29,
             "label": "conversations",
+            "description": "Join ongoing conversations.",
             "unread": false
           },
           {
-            "id": 32,
-            "label": "discussions"
+            "id": 30,
+            "label": "discussions",
+            "description": "Engage in various discussions."
           }
         ]
       },
@@ -194,22 +224,26 @@
         "label": "Category 1.9",
         "channels": [
           {
-            "id": 33,
+            "id": 31,
             "label": "resources",
+            "description": "Share and find useful resources.",
             "unread": true
           },
           {
-            "id": 34,
-            "label": "documents"
+            "id": 32,
+            "label": "documents",
+            "description": "Access important documents."
           },
           {
-            "id": 35,
+            "id": 33,
             "label": "files",
+            "description": "Upload and download files.",
             "unread": false
           },
           {
-            "id": 36,
-            "label": "links"
+            "id": 34,
+            "label": "links",
+            "description": "Useful links and references."
           }
         ]
       },
@@ -218,22 +252,860 @@
         "label": "Category 1.10",
         "channels": [
           {
-            "id": 37,
+            "id": 35,
             "label": "announcements",
+            "description": "Announcements and news.",
             "unread": true
           },
           {
-            "id": 38,
-            "label": "news"
+            "id": 36,
+            "label": "news",
+            "description": "Latest news updates."
           },
           {
-            "id": 39,
+            "id": 37,
             "label": "updates",
+            "description": "System and service updates.",
             "unread": false
           },
           {
-            "id": 40,
-            "label": "alerts"
+            "id": 38,
+            "label": "alerts",
+            "description": "Critical alerts and notifications."
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "label": "Category 2",
+    "categories": [
+      {
+        "id": 1,
+        "label": "",
+        "channels": [
+          {
+            "id": 1,
+            "label": "welcome",
+            "description": "Introduction to the server and guidelines.",
+            "icon": "Book",
+            "unread": true
+          },
+          {
+            "id": 2,
+            "label": "announcements",
+            "description": "Latest updates and news.",
+            "icon": "Announcement",
+            "unread": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Category 1.2",
+        "channels": [
+          {
+            "id": 3,
+            "label": "news",
+            "description": "Daily news and updates.",
+            "unread": true
+          },
+          {
+            "id": 4,
+            "label": "updates",
+            "description": "Recent changes and improvements.",
+            "unread": false
+          },
+          {
+            "id": 5,
+            "label": "feedback",
+            "description": "Share your thoughts and suggestions."
+          },
+          {
+            "id": 6,
+            "label": "support",
+            "description": "Need help? Ask here.",
+            "unread": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Category 1.3",
+        "channels": [
+          {
+            "id": 7,
+            "label": "discussions",
+            "description": "General discussions on various topics."
+          },
+          {
+            "id": 8,
+            "label": "ideas",
+            "description": "Share your innovative ideas.",
+            "unread": true
+          },
+          {
+            "id": 9,
+            "label": "projects",
+            "description": "Work on community projects together."
+          },
+          {
+            "id": 10,
+            "label": "resources",
+            "description": "Useful resources and links.",
+            "unread": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Category 1.4",
+        "channels": [
+          {
+            "id": 11,
+            "label": "networking",
+            "description": "Connect with others in the community.",
+            "unread": true
+          },
+          {
+            "id": 12,
+            "label": "collaborations",
+            "description": "Find collaboration opportunities.",
+            "unread": false
+          },
+          {
+            "id": 13,
+            "label": "events",
+            "description": "Upcoming events and meetups."
+          },
+          {
+            "id": 14,
+            "label": "meetups",
+            "description": "Plan and join meetups."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Category 1.5",
+        "channels": [
+          {
+            "id": 15,
+            "label": "announcements",
+            "description": "Important announcements.",
+            "unread": true
+          },
+          {
+            "id": 16,
+            "label": "news",
+            "description": "Latest news and updates."
+          },
+          {
+            "id": 17,
+            "label": "updates",
+            "description": "System updates and patches.",
+            "unread": false
+          },
+          {
+            "id": 18,
+            "label": "alerts",
+            "description": "Critical alerts and warnings."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "label": "Category 1.6",
+        "channels": [
+          {
+            "id": 19,
+            "label": "help",
+            "description": "Get help with issues and problems.",
+            "unread": true
+          },
+          {
+            "id": 20,
+            "label": "support",
+            "description": "Customer support and assistance.",
+            "unread": false
+          },
+          {
+            "id": 21,
+            "label": "assistance",
+            "description": "General assistance and help."
+          },
+          {
+            "id": 22,
+            "label": "guidance",
+            "description": "Guidance and mentorship."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "label": "Category 1.7",
+        "channels": [
+          {
+            "id": 23,
+            "label": "feedback",
+            "description": "Provide your feedback and suggestions.",
+            "unread": true
+          },
+          {
+            "id": 24,
+            "label": "suggestions",
+            "description": "Give your suggestions for improvement.",
+            "unread": false
+          },
+          {
+            "id": 25,
+            "label": "ideas",
+            "description": "Share your creative ideas."
+          },
+          {
+            "id": 26,
+            "label": "recommendations",
+            "description": "Recommend tools and resources."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "label": "Category 1.8",
+        "channels": [
+          {
+            "id": 27,
+            "label": "general",
+            "description": "General chat and discussions.",
+            "unread": true
+          },
+          {
+            "id": 28,
+            "label": "chats",
+            "description": "Casual chats and conversations."
+          },
+          {
+            "id": 29,
+            "label": "conversations",
+            "description": "Join ongoing conversations.",
+            "unread": false
+          },
+          {
+            "id": 30,
+            "label": "discussions",
+            "description": "Engage in various discussions."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "label": "Category 1.9",
+        "channels": [
+          {
+            "id": 31,
+            "label": "resources",
+            "description": "Share and find useful resources.",
+            "unread": true
+          },
+          {
+            "id": 32,
+            "label": "documents",
+            "description": "Access important documents."
+          },
+          {
+            "id": 33,
+            "label": "files",
+            "description": "Upload and download files.",
+            "unread": false
+          },
+          {
+            "id": 34,
+            "label": "links",
+            "description": "Useful links and references."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "label": "Category 1.10",
+        "channels": [
+          {
+            "id": 35,
+            "label": "announcements",
+            "description": "Announcements and news.",
+            "unread": true
+          },
+          {
+            "id": 36,
+            "label": "news",
+            "description": "Latest news updates."
+          },
+          {
+            "id": 37,
+            "label": "updates",
+            "description": "System and service updates.",
+            "unread": false
+          },
+          {
+            "id": 38,
+            "label": "alerts",
+            "description": "Critical alerts and notifications."
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "label": "Category 3",
+    "categories": [
+      {
+        "id": 1,
+        "label": "",
+        "channels": [
+          {
+            "id": 1,
+            "label": "welcome",
+            "description": "Introduction to the server and guidelines.",
+            "icon": "Book",
+            "unread": true
+          },
+          {
+            "id": 2,
+            "label": "announcements",
+            "description": "Latest updates and news.",
+            "icon": "Announcement",
+            "unread": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Category 1.2",
+        "channels": [
+          {
+            "id": 3,
+            "label": "news",
+            "description": "Daily news and updates.",
+            "unread": true
+          },
+          {
+            "id": 4,
+            "label": "updates",
+            "description": "Recent changes and improvements.",
+            "unread": false
+          },
+          {
+            "id": 5,
+            "label": "feedback",
+            "description": "Share your thoughts and suggestions."
+          },
+          {
+            "id": 6,
+            "label": "support",
+            "description": "Need help? Ask here.",
+            "unread": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Category 1.3",
+        "channels": [
+          {
+            "id": 7,
+            "label": "discussions",
+            "description": "General discussions on various topics."
+          },
+          {
+            "id": 8,
+            "label": "ideas",
+            "description": "Share your innovative ideas.",
+            "unread": true
+          },
+          {
+            "id": 9,
+            "label": "projects",
+            "description": "Work on community projects together."
+          },
+          {
+            "id": 10,
+            "label": "resources",
+            "description": "Useful resources and links.",
+            "unread": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Category 1.4",
+        "channels": [
+          {
+            "id": 11,
+            "label": "networking",
+            "description": "Connect with others in the community.",
+            "unread": true
+          },
+          {
+            "id": 12,
+            "label": "collaborations",
+            "description": "Find collaboration opportunities.",
+            "unread": false
+          },
+          {
+            "id": 13,
+            "label": "events",
+            "description": "Upcoming events and meetups."
+          },
+          {
+            "id": 14,
+            "label": "meetups",
+            "description": "Plan and join meetups."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Category 1.5",
+        "channels": [
+          {
+            "id": 15,
+            "label": "announcements",
+            "description": "Important announcements.",
+            "unread": true
+          },
+          {
+            "id": 16,
+            "label": "news",
+            "description": "Latest news and updates."
+          },
+          {
+            "id": 17,
+            "label": "updates",
+            "description": "System updates and patches.",
+            "unread": false
+          },
+          {
+            "id": 18,
+            "label": "alerts",
+            "description": "Critical alerts and warnings."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "label": "Category 1.6",
+        "channels": [
+          {
+            "id": 19,
+            "label": "help",
+            "description": "Get help with issues and problems.",
+            "unread": true
+          },
+          {
+            "id": 20,
+            "label": "support",
+            "description": "Customer support and assistance.",
+            "unread": false
+          },
+          {
+            "id": 21,
+            "label": "assistance",
+            "description": "General assistance and help."
+          },
+          {
+            "id": 22,
+            "label": "guidance",
+            "description": "Guidance and mentorship."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "label": "Category 1.7",
+        "channels": [
+          {
+            "id": 23,
+            "label": "feedback",
+            "description": "Provide your feedback and suggestions.",
+            "unread": true
+          },
+          {
+            "id": 24,
+            "label": "suggestions",
+            "description": "Give your suggestions for improvement.",
+            "unread": false
+          },
+          {
+            "id": 25,
+            "label": "ideas",
+            "description": "Share your creative ideas."
+          },
+          {
+            "id": 26,
+            "label": "recommendations",
+            "description": "Recommend tools and resources."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "label": "Category 1.8",
+        "channels": [
+          {
+            "id": 27,
+            "label": "general",
+            "description": "General chat and discussions.",
+            "unread": true
+          },
+          {
+            "id": 28,
+            "label": "chats",
+            "description": "Casual chats and conversations."
+          },
+          {
+            "id": 29,
+            "label": "conversations",
+            "description": "Join ongoing conversations.",
+            "unread": false
+          },
+          {
+            "id": 30,
+            "label": "discussions",
+            "description": "Engage in various discussions."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "label": "Category 1.9",
+        "channels": [
+          {
+            "id": 31,
+            "label": "resources",
+            "description": "Share and find useful resources.",
+            "unread": true
+          },
+          {
+            "id": 32,
+            "label": "documents",
+            "description": "Access important documents."
+          },
+          {
+            "id": 33,
+            "label": "files",
+            "description": "Upload and download files.",
+            "unread": false
+          },
+          {
+            "id": 34,
+            "label": "links",
+            "description": "Useful links and references."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "label": "Category 1.10",
+        "channels": [
+          {
+            "id": 35,
+            "label": "announcements",
+            "description": "Announcements and news.",
+            "unread": true
+          },
+          {
+            "id": 36,
+            "label": "news",
+            "description": "Latest news updates."
+          },
+          {
+            "id": 37,
+            "label": "updates",
+            "description": "System and service updates.",
+            "unread": false
+          },
+          {
+            "id": 38,
+            "label": "alerts",
+            "description": "Critical alerts and notifications."
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "label": "Category 4",
+    "categories": [
+      {
+        "id": 1,
+        "label": "",
+        "channels": [
+          {
+            "id": 1,
+            "label": "welcome",
+            "description": "Introduction to the server and guidelines.",
+            "icon": "Book",
+            "unread": true
+          },
+          {
+            "id": 2,
+            "label": "announcements",
+            "description": "Latest updates and news.",
+            "icon": "Announcement",
+            "unread": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Category 1.2",
+        "channels": [
+          {
+            "id": 3,
+            "label": "news",
+            "description": "Daily news and updates.",
+            "unread": true
+          },
+          {
+            "id": 4,
+            "label": "updates",
+            "description": "Recent changes and improvements.",
+            "unread": false
+          },
+          {
+            "id": 5,
+            "label": "feedback",
+            "description": "Share your thoughts and suggestions."
+          },
+          {
+            "id": 6,
+            "label": "support",
+            "description": "Need help? Ask here.",
+            "unread": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Category 1.3",
+        "channels": [
+          {
+            "id": 7,
+            "label": "discussions",
+            "description": "General discussions on various topics."
+          },
+          {
+            "id": 8,
+            "label": "ideas",
+            "description": "Share your innovative ideas.",
+            "unread": true
+          },
+          {
+            "id": 9,
+            "label": "projects",
+            "description": "Work on community projects together."
+          },
+          {
+            "id": 10,
+            "label": "resources",
+            "description": "Useful resources and links.",
+            "unread": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Category 1.4",
+        "channels": [
+          {
+            "id": 11,
+            "label": "networking",
+            "description": "Connect with others in the community.",
+            "unread": true
+          },
+          {
+            "id": 12,
+            "label": "collaborations",
+            "description": "Find collaboration opportunities.",
+            "unread": false
+          },
+          {
+            "id": 13,
+            "label": "events",
+            "description": "Upcoming events and meetups."
+          },
+          {
+            "id": 14,
+            "label": "meetups",
+            "description": "Plan and join meetups."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "label": "Category 1.5",
+        "channels": [
+          {
+            "id": 15,
+            "label": "announcements",
+            "description": "Important announcements.",
+            "unread": true
+          },
+          {
+            "id": 16,
+            "label": "news",
+            "description": "Latest news and updates."
+          },
+          {
+            "id": 17,
+            "label": "updates",
+            "description": "System updates and patches.",
+            "unread": false
+          },
+          {
+            "id": 18,
+            "label": "alerts",
+            "description": "Critical alerts and warnings."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "label": "Category 1.6",
+        "channels": [
+          {
+            "id": 19,
+            "label": "help",
+            "description": "Get help with issues and problems.",
+            "unread": true
+          },
+          {
+            "id": 20,
+            "label": "support",
+            "description": "Customer support and assistance.",
+            "unread": false
+          },
+          {
+            "id": 21,
+            "label": "assistance",
+            "description": "General assistance and help."
+          },
+          {
+            "id": 22,
+            "label": "guidance",
+            "description": "Guidance and mentorship."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "label": "Category 1.7",
+        "channels": [
+          {
+            "id": 23,
+            "label": "feedback",
+            "description": "Provide your feedback and suggestions.",
+            "unread": true
+          },
+          {
+            "id": 24,
+            "label": "suggestions",
+            "description": "Give your suggestions for improvement.",
+            "unread": false
+          },
+          {
+            "id": 25,
+            "label": "ideas",
+            "description": "Share your creative ideas."
+          },
+          {
+            "id": 26,
+            "label": "recommendations",
+            "description": "Recommend tools and resources."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "label": "Category 1.8",
+        "channels": [
+          {
+            "id": 27,
+            "label": "general",
+            "description": "General chat and discussions.",
+            "unread": true
+          },
+          {
+            "id": 28,
+            "label": "chats",
+            "description": "Casual chats and conversations."
+          },
+          {
+            "id": 29,
+            "label": "conversations",
+            "description": "Join ongoing conversations.",
+            "unread": false
+          },
+          {
+            "id": 30,
+            "label": "discussions",
+            "description": "Engage in various discussions."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "label": "Category 1.9",
+        "channels": [
+          {
+            "id": 31,
+            "label": "resources",
+            "description": "Share and find useful resources.",
+            "unread": true
+          },
+          {
+            "id": 32,
+            "label": "documents",
+            "description": "Access important documents."
+          },
+          {
+            "id": 33,
+            "label": "files",
+            "description": "Upload and download files.",
+            "unread": false
+          },
+          {
+            "id": 34,
+            "label": "links",
+            "description": "Useful links and references."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "label": "Category 1.10",
+        "channels": [
+          {
+            "id": 35,
+            "label": "announcements",
+            "description": "Announcements and news.",
+            "unread": true
+          },
+          {
+            "id": 36,
+            "label": "news",
+            "description": "Latest news updates."
+          },
+          {
+            "id": 37,
+            "label": "updates",
+            "description": "System and service updates.",
+            "unread": false
+          },
+          {
+            "id": 38,
+            "label": "alerts",
+            "description": "Critical alerts and notifications."
           }
         ]
       }
