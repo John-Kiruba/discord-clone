@@ -34,7 +34,7 @@ export default function ServerID({ params }: { params: Params }) {
         </div>
       </div>
 
-      <div className="bg-gray-700 flex-shrink min-w-0 flex-1 flex flex-col">
+      <div className="bg-gray-700 flex-shrink min-w-0  flex-1 flex flex-col">
         <MainChatComponent params={params} />
       </div>
     </>
