@@ -22,7 +22,7 @@ export default function ServerNavigation({
 
   return (
     <div className="flex text-gray-100 h-screen">
-      <div className="bg-gray-900 p-3 space-y-2 overflow-y-scroll hidden-scrollbar">
+      <div className="bg-gray-900 p-3 space-y-2 overflow-y-scroll hidden-scrollbar hidden md:block">
         <div>
           <Navlink href="/">
             <DiscordIcon className="size-[30px]" />

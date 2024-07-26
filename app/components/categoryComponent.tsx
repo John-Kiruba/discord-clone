@@ -5,7 +5,7 @@ import {
   Channel,
   Params,
 } from "@/app/servers/[serverId]/channels/[channelId]/page";
-import data from "@/app/dummyData/data.json";
+import { data } from "@/app/dummyData/data";
 import Link from "next/link";
 import * as Icons from "@/app/components/icons";
 
@@ -21,7 +21,7 @@ export function CategoryComponent({ params }: { params: Params }) {
   }
   return (
     <>
-      {data["1"].categories.map((category) => (
+      {data[params.serverId as keyof typeof data].categories.map((category) => (
         <div key={category.id}>
           {/* categorytitle - renders if category.label is present  */}
           {category.label && (

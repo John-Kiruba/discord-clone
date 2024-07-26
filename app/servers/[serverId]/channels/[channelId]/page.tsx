@@ -7,7 +7,16 @@ export type Channel = {
   label: string;
   icon?: string;
   unread?: boolean;
+  messages: Messages[];
 };
+
+export interface Messages {
+  id: string;
+  user: string;
+  avatarUrl: string;
+  date: string;
+  text: string;
+}
 
 export type Params = {
   serverId: string;
@@ -17,7 +26,7 @@ export type Params = {
 export default function ServerID({ params }: { params: Params }) {
   return (
     <>
-      <div className="bg-gray-800 w-60 flex  flex-col">
+      <div className="bg-gray-800 w-60 md:flex flex-col hidden ">
         <button>
           <div className="font-title font-bold px-4 h-12 flex items-center shadow-sm text-[15px] hover:bg-gray-550/[0.16] transition">
             <div className="relative size-4 mr-1">

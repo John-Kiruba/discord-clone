@@ -1,3 +1,5 @@
+import { GeneralIntro } from "./components/generalIntro";
+
 export default function Home() {
   return (
     <>
