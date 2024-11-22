@@ -1,4 +1,4 @@
-<video controls src="discord-clone.mp4" title="user-interface"></video>
+![Discord-Interface](https://github.com/John-Kiruba/discord-clone/blob/dev/thumbnail.png)(https://github.com/John-Kiruba/discord-clone/blob/dev/discord-clone.mp4)
 
 This is an attempt to replicate discord interface using NextJS, Tailwind, JavaScript. Feel free to fork and build further.
 
