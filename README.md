@@ -1,3 +1,7 @@
+<video controls src="discord-clone.mp4" title="user-interface"></video>
+
+This is an attempt to replicate discord interface using NextJS, Tailwind, JavaScript. Feel free to fork and build further.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
